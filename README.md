@@ -16,7 +16,7 @@ flutter run # tested on android and linux
 <br/>
 
 #### 4 Tasks To Do
-<img src="https://github.com/LukeDickerson19/simple-task-manager/blob/master/images/screenshots/four_tasks_to_do.jpg?raw=true" width="100" height="100">
+<img src="https://github.com/LukeDickerson19/simple-task-manager/blob/master/images/screenshots/four_tasks_to_do.jpg?raw=true" width="100" height="250">
 
 <br/>
 
