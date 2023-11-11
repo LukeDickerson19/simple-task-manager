@@ -10,17 +10,11 @@ flutter run # tested on android and linux
 
 <p allign="center">
   <img src="/images/screenshots/app_icon.jpg?raw=true" width="20%">
+&nbsp; &nbsp; &nbsp; &nbsp;
   <img src="/images/screenshots/four_tasks_to_do.jpg?raw=true" width="20%">
+&nbsp; &nbsp; &nbsp; &nbsp;
   <img src="/images/screenshots/add_task.jpg?raw=true" width="20%">
 </p>
-
-
-<p allign="middle">
-  <img src="/images/screenshots/app_icon.jpg?raw=true" width="110" height="244">
-  <img src="/images/screenshots/four_tasks_to_do.jpg?raw=true" width="110" height="244">
-  <img src="/images/screenshots/add_task.jpg?raw=true" width="110" height="244">
-</p>
-
 
 <p float="left">
   <img src="/images/screenshots/task_details_page.jpg?raw=true" width="110" height="244">
