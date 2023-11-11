@@ -11,7 +11,7 @@ flutter run # tested on android and linux
 |:-------------------------:|:-------------------------:|:-------------------------:|
 <img src="/images/screenshots/app_icon.jpg?raw=true" width="110" height="244"> | <img src="/images/screenshots/four_tasks_to_do.jpg?raw=true" width="110" height="244"> | <img src="/images/screenshots/add_task.jpg?raw=true" width="110" height="244">
 
-<p float="middle">
+<p allign="middle">
   <img src="/images/screenshots/app_icon.jpg?raw=true" width="110" height="244">
   <img src="/images/screenshots/four_tasks_to_do.jpg?raw=true" width="110" height="244">
   <img src="/images/screenshots/add_task.jpg?raw=true" width="110" height="244">
