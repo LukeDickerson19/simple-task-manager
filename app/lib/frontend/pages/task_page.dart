@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:intl/intl.dart';
 import '../../backend/task_manager.dart';
 import '../common_widgets/delete_confirmation.dart';
 import '../common_widgets/add_or_edit_task.dart';
@@ -9,6 +10,7 @@ class TaskPage extends StatelessWidget {
   const TaskPage({super.key, required this.task});
 
   Widget taskDetails() {
+    final DateFormat formatter = DateFormat('yMMMEd');
     return Padding(
         padding: const EdgeInsets.all(30),
         child: Column(
@@ -20,29 +22,26 @@ class TaskPage extends StatelessWidget {
                   child: InputDecorator(
                       decoration: const InputDecoration(
                           labelText: "Title", border: OutlineInputBorder()),
-                      child: Expanded(
-                          child: Text(task.title,
-                              softWrap: false,
-                              maxLines: 1,
-                              overflow: TextOverflow.ellipsis)))),
+                      child: Text(task.title,
+                          softWrap: false,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis))),
               Padding(
                   padding: const EdgeInsets.only(bottom: 50),
                   child: InputDecorator(
                       decoration: const InputDecoration(
                           labelText: "Description",
                           border: OutlineInputBorder()),
-                      child: Expanded(
-                          child: Text(task.description,
-                              softWrap: true,
-                              maxLines: 15,
-                              overflow: TextOverflow.ellipsis)))),
+                      child: Text(task.description,
+                          softWrap: true,
+                          maxLines: 15,
+                          overflow: TextOverflow.ellipsis))),
               Padding(
                   padding: const EdgeInsets.only(bottom: 50),
                   child: InputDecorator(
                       decoration: const InputDecoration(
                           labelText: "Due Date", border: OutlineInputBorder()),
-                      child: Text(
-                          "${task.dueDate.year}-${task.dueDate.month}-${task.dueDate.day}",
+                      child: Text(formatter.format(task.dueDate),
                           softWrap: true))),
             ]));
   }
@@ -63,11 +62,10 @@ class TaskPage extends StatelessWidget {
         builder: (_, taskManager, __) => Scaffold(
               resizeToAvoidBottomInset: false,
               appBar: AppBar(
-                title: Expanded(
-                    child: Text(task.title,
-                        softWrap: false,
-                        maxLines: 1,
-                        overflow: TextOverflow.ellipsis)),
+                title: Text(task.title,
+                    softWrap: false,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis),
                 actions: <Widget>[
                   IconButton(
                     icon: const Icon(Icons.menu),
