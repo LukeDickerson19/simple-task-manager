@@ -17,9 +17,9 @@ flutter run # tested on android and linux
 &nbsp; &nbsp; &nbsp; &nbsp;
   <img src="/images/screenshots/add_task.jpg?raw=true" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/images/screenshots/task_details_page.jpg?raw=true" width="110" height="244">
+  <img src="/images/screenshots/task_details_page.jpg?raw=true" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/images/screenshots/delete_task_from_task_details_page.jpg?raw=true" width="110" height="244">
+  <img src="/images/screenshots/delete_task_from_task_details_page.jpg?raw=true" width="20%">
 &nbsp; &nbsp; &nbsp; &nbsp;
-  <img src="/images/screenshots/dark_theme.jpg?raw=true" width="110" height="244">
+  <img src="/images/screenshots/dark_theme.jpg?raw=true" width="20%">
 </p>
