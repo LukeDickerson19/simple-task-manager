@@ -1,5 +1,5 @@
 # simple-task-manager
-Flutter App to manage tasks
+Simple To-Do List App made in Flutter.
 
 #### Install / Usage
 ```
